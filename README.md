@@ -1,4 +1,4 @@
-﻿# droneSim
+﻿# UAVSim
 
 
 This project is working on a generic multicopter flight simulation. The project is writen in C++.
