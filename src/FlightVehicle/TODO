@@ -1,0 +1,3 @@
+- Check a working format für postion matrix for distance of rotor to cg (MAYBE create a new matrix class)
+- need of figuring out how to define the drag coefficent of the propeller
+

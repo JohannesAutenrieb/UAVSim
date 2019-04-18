@@ -1,0 +1,5 @@
+This command is setting up the serial port for the reciever:
+-> stty -F /dev/ttyUSB0 921600 cs8 -cstopb -parenb -ixoff
+
+This command gives the executable root rights:
+sudo chmod -v u+s ./executable_name

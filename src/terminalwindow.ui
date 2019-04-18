@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TerminalWindow</class>
+ <widget class="QDialog" name="TerminalWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>775</width>
+    <height>516</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>751</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="2">
+     <widget class="QLabel" name="aileron_control_input_label">
+      <property name="text">
+       <string>Aileron</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="QLineEdit" name="rudder_control_input_lineEdit"/>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="alignment_label">
+      <property name="font">
+       <font>
+        <family>Tlwg Typewriter</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Alignment</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="heading_alignment_label">
+      <property name="text">
+       <string>Heading</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="position_label">
+      <property name="font">
+       <font>
+        <family>Tlwg Typewriter</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Position</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="1">
+     <widget class="QLineEdit" name="heading_alignment_lineEdit"/>
+    </item>
+    <item row="13" column="0">
+     <widget class="QLabel" name="pitch_alignment_label">
+      <property name="text">
+       <string>Pitch</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="1">
+     <widget class="QLineEdit" name="pitch_alignment_lineEdit"/>
+    </item>
+    <item row="14" column="0">
+     <widget class="QLabel" name="roll_alignment_label">
+      <property name="text">
+       <string>Rolling</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="1">
+     <widget class="QLineEdit" name="roll_alignment_lineEdit"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLabel" name="control_input_label">
+      <property name="font">
+       <font>
+        <family>Tlwg Typewriter</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string>Controller-Input</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="x_position_lineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="y_position_label">
+      <property name="text">
+       <string>Y-Position</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3">
+     <widget class="QLineEdit" name="throttle_control_input_lineEdit"/>
+    </item>
+    <item row="4" column="3">
+     <widget class="QLineEdit" name="elevator_control_input_lineEdit"/>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="alititude_position_lineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="altitude_position_label">
+      <property name="text">
+       <string>Altitude</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="y_position_lineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="x_position_label">
+      <property name="text">
+       <string>X-Position</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QLineEdit" name="aileron_control_input_lineEdit"/>
+    </item>
+    <item row="7" column="2">
+     <widget class="QLabel" name="throttle_control_input_label">
+      <property name="text">
+       <string>Throttle</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLabel" name="elevator_control_input_label">
+      <property name="text">
+       <string>Elevator</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLabel" name="rudder_control_input_label">
+      <property name="text">
+       <string>Rudder</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="0" colspan="4">
+     <widget class="QTextBrowser" name="DynamicDataDisplayer"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>568</x>
+     <y>466</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Stop Simulation</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>closeButton</sender>
+   <signal>clicked()</signal>
+   <receiver>TerminalWindow</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>309</x>
+     <y>483</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>387</x>
+     <y>257</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

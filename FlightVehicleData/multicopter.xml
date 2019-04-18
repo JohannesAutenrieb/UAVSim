@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Multicopter>
+<General>
+<simulation_frequenzy>1</simulation_frequenzy>
+</General>
+<Multicopter_FlightVehicle_Data>
+<Multicopter>
+   <total_mass>1.576</total_mass>
+   <moment_of_intertia_jxx>15.293E-3</moment_of_intertia_jxx>
+   <moment_of_intertia_jyy>15.293E-3</moment_of_intertia_jyy>
+   <moment_of_intertia_jzz>20.307E-3</moment_of_intertia_jzz>
+    <configuration_typ></configuration_typ>
+   <number_of_rotors>4</number_of_rotors>
+     <Rotors>
+    <Propeller id="1">
+     <position_angle>0</position_angle>
+     <tilt_angle>0</tilt_angle>
+     </Propeller>
+         <Propeller id="2">
+     <position_angle>0</position_angle>
+     <tilt_angle>0</tilt_angle>
+     </Propeller>
+         <Propeller id="3">
+     <position_angle>0</position_angle>
+     <tilt_angle>0</tilt_angle>
+     </Propeller>
+         <Propeller id="4">
+     <position_angle>0</position_angle>
+     <tilt_angle>0</tilt_angle>
+   </Propeller>
+    </Rotors>
+   <rack_weight>0</rack_weight>
+   <devices_and_wire_weight>0</devices_and_wire_weight>
+   <load_weight>0</load_weight>
+  </Multicopter>
+<Motor>
+    <nominal_noLoad_current></nominal_noLoad_current>
+    <noload_current></noload_current>
+    <nominal_noLoad_voltage></nominal_noLoad_voltage>
+    <nominal_noLoad_motor_constant></nominal_noLoad_motor_constant>
+    <maximum_current></maximum_current>
+    <resistance></resistance>
+    <weight></weight>
+    <back_electromotive></back_electromotive>
+    <force_constant></force_constant>
+    <torque_constant></torque_constant>
+    <equivalent_current></equivalent_current>
+    <equivalent_voltage></equivalent_voltage>
+</Motor>
+<Propeller>
+    <diameter>0.7</diameter>
+    <pitch></pitch>
+    <number_of_blades>2</number_of_blades>
+    <blade_average_chord>0.1</blade_average_chord>
+    <weight>0.5</weight>
+    <correction_coefficent_blade>0</correction_coefficent_blade>
+    <position_coefficent>0</position_coefficent>
+    <distance_of_rotor_to_cg_x>0.5</distance_of_rotor_to_cg_x>
+    <distance_of_rotor_to_cg_y>0.5</distance_of_rotor_to_cg_y>
+    <distance_of_rotor_to_cg_z>0.1</distance_of_rotor_to_cg_z>
+    <slope_of_lift_curve>0</slope_of_lift_curve>
+    <downwash_correction>0</downwash_correction>
+    <aspect_ratio>0</aspect_ratio>
+    <zero_lift_angle_of_attack>0</zero_lift_angle_of_attack>
+    <zero_lift_drag_coefficent>0</zero_lift_drag_coefficent>
+    <oswald_factor>0.0984</oswald_factor>
+    <thrust_coefficent>0.00000984</thrust_coefficent>
+    <torque_coefficent>0.0068</torque_coefficent>
+    <drag_coefficent>0.001</drag_coefficent>
+    <idle_rotor_speed>2000</idle_rotor_speed>
+    <maximum_rotor_speed>12000</maximum_rotor_speed>
+</Propeller>
+<ESC>
+    <maximum_current></maximum_current>
+    <equivalent_dc_voltage></equivalent_dc_voltage>
+    <resistance></resistance>
+    <weight></weight>
+    <circuit_principle></circuit_principle>
+    <input_throttle></input_throttle>
+    <input_current></input_current>
+</ESC>
+<Battery>
+    <capacity></capacity>
+    <resistance></resistance>
+    <voltage></voltage>
+    <maximum_discharge_rate></maximum_discharge_rate>
+    <weight></weight>
+    <battery_minimum_capacity></battery_minimum_capacity>
+</Battery>
+</Multicopter_FlightVehicle_Data>
+<Aerodynamics>
+</Aerodynamics>
+</Multicopter>

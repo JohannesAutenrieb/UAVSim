@@ -1,0 +1,7 @@
+﻿add_subdirectory(FlightVehicle)
+add_subdirectory(FlightDynamic)
+add_subdirectory(Enviroment)
+add_subdirectory(Thread)
+add_subdirectory(Input)
+add_subdirectory(Communication)
+add_subdirectory(MicroController)

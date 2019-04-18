@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Multicopter>
+<Multicopter_FlightVehicle_Data>
+<Multicopter>
+   <total_mass></total_mass>
+   <moment_of_intertia_jxx></moment_of_intertia_jxx>
+   <moment_of_intertia_jyy></moment_of_intertia_jyy>
+   <moment_of_intertia_jzz></moment_of_intertia_jzz>
+   <number_of_rotors></number_of_rotors>
+   <configuration_typ></configuration_typ>
+   <rack_weight></rack_weight>
+   <devices_and_wire_weight></devices_and_wire_weight>
+    <load_weight></load_weight>
+  </Multicopter>
+<Motor>
+    <nominal_noLoad_current></nominal_noLoad_current>
+    <noload_current></noload_current>
+    <nominal_noLoad_voltage></nominal_noLoad_voltage>
+    <nominal_noLoad_motor_constant></nominal_noLoad_motor_constant>
+    <maximum_current></maximum_current>
+    <resistance></resistance>
+    <weight></weight>
+    <back_electromotive></back_electromotive>
+    <force_constant></force_constant>
+    <torque_constant></torque_constant>
+    <equivalent_current></equivalent_current>
+    <equivalent_voltage></equivalent_voltage>
+</Motor>
+<Propeller>
+    <diameter></diameter>
+    <pitch></pitch>
+    <number_of_blades> </number_of_blades>
+    <blade_average_chord></blade_average_chord>
+    <weight></weight>
+    <correction_coefficent_blade></correction_coefficent_blade>
+    <position_coefficent></position_coefficent>
+    <slope_of_lift_curve></slope_of_lift_curve>
+    <downwash_correction></downwash_correction>
+    <aspect_ratio></aspect_ratio>
+    <zero_lift_angle_of_attack></zero_lift_angle_of_attack>
+    <zero_lift_drag_coefficent></zero_lift_drag_coefficent>
+    <oswald_factor></oswald_factor>
+    <thrust_coefficent></thrust_coefficent>
+    <torque_coefficent></torque_coefficent>
+</Propeller>
+<ESC>
+    <maximum_current></maximum_current>
+    <equivalent_dc_voltage></equivalent_dc_voltage>
+    <resistance></resistance>
+    <weight></weight>
+    <circuit_principle></circuit_principle>
+    <input_throttle></input_throttle>
+    <input_current></input_current>
+</ESC>
+<Battery>
+    <capacity></capacity>
+    <resistance></resistance>
+    <voltage></voltage>
+    <maximum_discharge_rate></maximum_discharge_rate>
+    <weight></weight>
+    <battery_minimum_capacity></battery_minimum_capacity>
+</Battery>
+</Multicopter_FlightVehicle_Data>
+<Aerodynamics>
+</Aerodynamics>
+</Multicopter>

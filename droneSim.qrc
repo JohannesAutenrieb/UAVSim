@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file alias="AppIcon32">res/AppIcon32.png</file>
+        <file alias="AppIcon128">res/AppIcon128.png</file>
+        <file alias="Kaist">docu/software-docu-flight-simulation/Img/kaist.png</file>
+        <file>docu/software-docu-flight-simulation/Img/logo_ASCL.gif</file>
+        <file>docu/software-docu-flight-simulation/Img/drone1.png</file>
+    </qresource>
+</RCC>

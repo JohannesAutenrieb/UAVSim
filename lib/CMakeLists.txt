@@ -1,0 +1,5 @@
+add_subdirectory(pugixml)
+add_subdirectory(gmath)
+add_subdirectory(googletest)
+add_subdirectory(mavLink)
+add_subdirectory(Open-Dis)
